@@ -1,5 +1,6 @@
 # Given a list of positive integers and the starting integer d, return x such that x is the smallest value greater than
 # or equal to d that's not present in the list
+
 def find_first_missing_element(arr, d):
     '''
     Inputs: 
@@ -41,3 +42,4 @@ def find_first_missing_element(arr, d):
                 return d
     
     return helper(first, last, d)
+
